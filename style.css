@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;900&family=Roboto:wght@400;700&display=swap");
+
+/* General styles */
+
+body,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+
+/* Header style*/
+
+.header {
+  background: #0d0d0d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+
+/* Section style */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.flex > div {
+  flex: 1 1 200px;
+}
+
+.container a {
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem 5rem;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000000;
+  margin: 0 auto;
+  display: flex;
+}
