@@ -91,6 +91,6 @@ img {
 @media (max-width: 400px) {
   .header {
     display: flex;
-    
+    overflow: hidden;
   }
 }

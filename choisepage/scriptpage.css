@@ -3,18 +3,20 @@
 /* General styles */
 
 * {
-  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+ 
 }
 
-body,
+body {
+  margin: 0;
+}
+
 ul,
 li {
   margin: 0px;
   padding: 0px;
   list-style: none;
   font-size: 1.2rem;
-  font-family: "Roboto", sans-serif;
-  overflow: hidden;
 }
 
 a {
@@ -47,4 +49,86 @@ a {
 .menu li a {
   display: block;
   padding: 10px;
+}
+
+/* cards */
+
+.general-cards {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  height: 100%;
+}
+
+.card {
+  height: 580px;
+  width: 385px;
+  position: relative;
+  transition: all 1s linear;
+  transform-style: preserve-3d;
+}
+
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.front {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+.text {
+  font-size: 1em;
+}
+
+.back {
+  z-index: 1;
+  transform: rotateY(180deg);
+}
+
+.container-card:hover .card {
+  transform: rotateY(180deg);
+}
+
+.container-card {
+  perspective: 1000px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+
+.btn-nat {
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 5em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000000;
+  margin-top: 36vh;
+}
+
+.btn-nat:hover {
+  background-color: #737373;
 }
