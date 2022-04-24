@@ -4,7 +4,6 @@
 
 * {
   font-family: "Roboto", sans-serif;
- 
 }
 
 body {
@@ -116,7 +115,7 @@ a {
   color: #bfbfbf;
 }
 
-.btn-nat {
+.btn-perso {
   border: none;
   border-radius: 3rem;
   cursor: pointer;
@@ -129,6 +128,10 @@ a {
   margin-top: 36vh;
 }
 
-.btn-nat:hover {
+.btn-perso:hover {
   background-color: #737373;
+}
+
+.btn-perso {
+  margin-left: 10%;
 }
