@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;900&family=Roboto:wght@400;700&display=swap");
+
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+
+/* Header style*/
+
+.header {
+  background: #0d0d0d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#logo {
+  height: 60px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+/* Main style*/
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  margin-top: 25%;
+}
+
+.container-list {
+  height: 580px;
+  width: 385px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.btn {
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 3em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000000;
+}
+
+.btn:hover {
+  background-color: #737373;
+}
