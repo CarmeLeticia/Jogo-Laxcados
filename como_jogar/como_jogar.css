@@ -13,9 +13,9 @@ li {
   padding: 0px;
   list-style: none;
   font-family: "Roboto", sans-serif;
-  max-width: 1100px;
+  max-width: 100%;
   max-height: 500px;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 a {
@@ -49,25 +49,33 @@ a {
   display: block;
   padding: 10px;
 }
-/* Main style*/
+/* Section style */
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: nowrap;
-  
+  max-width: 200rem;
+  margin: 0 auto;
 }
 
-.container-list {
-  height: 580px;
-  width: 385px;
-  margin-top: 37%;
+p {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 img {
+  margin-top: 20%;
   max-width: 100%;
   display: block;
-  max-height: 580px;
+}
+
+/* button*/
+
+.container-btn {
+  display: flex;
+  margin-top: 150%;
 }
 
 .btn {
@@ -80,15 +88,11 @@ img {
   text-transform: uppercase;
   color: #fff;
   background: #000000;
-  
 }
 
 .btn:hover {
   background-color: #737373;
 }
-
-
-
 
 /* Footer*/
 
@@ -101,11 +105,11 @@ footer {
   width: 100%;
   color: white;
   text-align: center;
-  max-width: 1200px;
+  max-width: 100%;
   max-height: 600px;
 }
 
-p {
+footer > p {
   color: #fff;
   margin: 0;
 }
