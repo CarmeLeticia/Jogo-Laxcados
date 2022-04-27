@@ -59,23 +59,27 @@ a {
   margin: 0 auto;
 }
 
-p {
-  margin-bottom: 20px;
+.container-list p {
   text-transform: uppercase;
   font-weight: 600;
+  text-align: center;
 }
 
 img {
   margin-top: 20%;
   max-width: 100%;
   display: block;
+  text-align: center;
 }
 
 /* button*/
 
 .container-btn {
+  margin-top: 50%;
   display: flex;
-  margin-top: 150%;
+  align-items: center;
+  justify-content: center ;
+  
 }
 
 .btn {
@@ -88,6 +92,7 @@ img {
   text-transform: uppercase;
   color: #fff;
   background: #000000;
+  
 }
 
 .btn:hover {
@@ -111,7 +116,8 @@ footer {
 
 footer > p {
   color: #fff;
-  margin: 0;
+  font-size: 15px;
+  font-style: italic;
 }
 
 div {
