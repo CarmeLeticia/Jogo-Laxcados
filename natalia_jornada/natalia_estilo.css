@@ -62,14 +62,13 @@ a {
   margin: 20px;
   width: 100%;
   flex-wrap: wrap;
- 
 }
 
 img {
   max-width: 100%;
   display: block;
   max-width: 500px;
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 .container-list p {
