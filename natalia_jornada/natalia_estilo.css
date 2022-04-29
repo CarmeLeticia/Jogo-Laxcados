@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;900&family=Roboto:wght@400;700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;900&family=Roboto:wght@400;700&display=swap");
 
 /* General styles */
 
@@ -68,7 +68,6 @@ img {
   max-width: 100%;
   display: block;
   max-width: 500px;
-  margin-left: 15%;
 }
 
 .container-list p {
@@ -81,6 +80,7 @@ img {
 /* button */
 
 .container-btn {
+  margin-top: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,11 +96,15 @@ img {
   text-transform: uppercase;
   color: #fff;
   background: #000000;
-  margin-top: 30vh;
+  margin-top: 5vh;
 }
 
 .btn:hover {
   background-color: #737373;
+}
+
+.container-btn > button > a {
+  color: #fff;
 }
 
 /* Footer*/

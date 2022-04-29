@@ -78,21 +78,22 @@ img {
   margin-top: 50%;
   display: flex;
   align-items: center;
-  justify-content: center ;
-  
+  justify-content: center;
 }
+
 
 .btn {
   border: none;
   border-radius: 3rem;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   padding: 1rem 3em;
   text-transform: uppercase;
   color: #fff;
   background: #000000;
-  
+  flex-wrap: wrap;
+  line-height: 1rem;
 }
 
 .btn:hover {
