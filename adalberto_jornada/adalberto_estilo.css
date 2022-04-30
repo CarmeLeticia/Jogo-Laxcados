@@ -96,11 +96,14 @@ img {
   text-transform: uppercase;
   color: #fff;
   background: #000000;
-  margin-top: 30vh;
+  margin-top: 5rem;
 }
 
 .btn:hover {
   background-color: #737373;
+}
+.container-btn > button > a {
+  color: #fff;
 }
 
 /* Footer*/
