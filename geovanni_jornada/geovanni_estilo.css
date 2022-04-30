@@ -102,6 +102,10 @@ img {
   background-color: #737373;
 }
 
+.container-btn > button > a {
+  color: #fff;
+}
+
 /* Footer*/
 
 footer {
